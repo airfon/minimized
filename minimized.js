@@ -1,16 +1,6 @@
 (function() {
     let template = document.createElement("template");
-/*    template.innerHTML = `
- <style>
- :host {
- border-radius: 25px;
- border-width: 4px;
- border-color: black;
- border-style: solid;
- display: block;
- } 
- </style>
- `;*/
+
     class Minimized extends HTMLElement {
         constructor() {
             super();
