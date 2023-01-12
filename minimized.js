@@ -11,7 +11,7 @@
  } 
  </style>
  `;
-    class ColoredBox extends HTMLElement {
+    class Minimized extends HTMLElement {
         constructor() {
             super();
             let shadowRoot = this.attachShadow({
@@ -39,5 +39,5 @@
             }
         }
     }
-    customElements.define("com-sap-sample-coloredbox", ColoredBox);
+    customElements.define("com-str-minimized", Minimized);
 })();
